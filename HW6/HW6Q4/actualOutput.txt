@@ -1,0 +1,55 @@
+humidity = high :
+	temperature = hot :
+		outlook = sunny :
+			NO
+		outlook = overcast :
+			YES
+		outlook = rainy :
+			null
+	temperature = mild :
+		outlook = sunny :
+			NO
+		outlook = overcast :
+			YES
+		outlook = rainy :
+			wind = weak :
+				YES
+			wind = strong :
+				NO
+	temperature = cool :
+		null
+humidity = normal :
+	outlook = sunny :
+		YES
+	outlook = overcast :
+		YES
+	outlook = rainy :
+		temperature = hot :
+			null
+		temperature = mild :
+			YES
+		temperature = cool :
+			wind = weak :
+				YES
+			wind = strong :
+				NO
+
+
+NO
+NO
+YES
+YES
+NO
+NO
+YES
+NO
+YES
+NO
+YES
+NO
+YES
+NO
+YES
+
+
+Training error = 0.0 , Test error = 0.0
